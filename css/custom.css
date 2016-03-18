@@ -1,0 +1,189 @@
+.home .slide-home {
+  opacity: 0.9 !important;
+}
+
+.reveal .heading-divider {
+  /*border-top: 1px dashed white;*/
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  text-shadow: 4px 3px 0px #0a1c29, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .fa {
+  /*color: #8dcffc;*/
+}
+
+
+.reveal .attribution a {
+  margin: 0 0.7em;
+  display: inline-block;
+}
+
+.reveal .slide-history .fragment {
+  display: table;
+  width: 100%;
+  margin: 1em 0 1em 3em;
+}
+
+.reveal .slide-history h2 {
+  margin-bottom: 50px;
+}
+
+.reveal .slide-history .logo {
+  max-width: 250px;
+  display: table-cell;
+}
+
+.reveal .slide-history .logo-node {
+  max-width: 300px;
+}
+
+.reveal .slide-history .logo-npm {
+  margin-right: 20px;
+}
+
+.reveal .slide-history .date {
+  display: inline-block;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.reveal .list {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  left: 80px;
+  top: 10px;
+}
+
+.reveal .list-item {
+  float: left;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.reveal .list-item:first-child {
+  width: 207px;
+}
+
+/*.reveal .list-item:first-child img {
+  max-height: 260px;
+  max-width: 247px;
+}*/
+
+.reveal .arrow-1 {
+  position: absolute;
+  width: 180px;
+  left: 164px;
+  top: 40px;
+}
+
+.reveal .arrow-2 {
+  position: absolute;
+  width: 180px;
+  left: 452px;
+  top: 40px;
+}
+
+.reveal .section-hayek {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center
+}
+
+.reveal .section-hayek img {
+  width: 40%;
+  margin-right: 2%;
+}
+
+.reveal blockquote {
+  margin: 0;
+  font-size: 30px;
+  padding: 1em;
+  width: 94%;
+  margin-bottom: 1em;
+  /*border-left: 7px solid #42affa;*/
+}
+
+.section-distributions {
+  height: 700px;
+  top: 0 !important;
+}
+
+.section-distributions img {
+  height: 100%;
+  width: auto;
+}
+
+
+.section-phases {}
+
+.section-phases .phase {
+  margin-bottom: 1em;
+  line-height: 1;
+}
+
+.section-phases img {
+  max-width: 230px;
+}
+
+.section-phases p {
+  margin-top: 0;
+}
+
+.phase small {
+  display: inline-block;
+  width: 100%;
+  margin: 0 !important;
+}
+
+
+.reveal .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal .row.gutter-l > * {
+  margin: 0 1em;
+}
+
+.reveal .trump:after {
+  content: '';
+  width: 300px;
+  height: 40px;
+  background: #131d25;
+  display: block;
+  position: relative;
+  top: -40px;
+}
+
+.reveal .trump {
+  position: relative;
+  top: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.reveal .trump img {
+  max-width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reveal .trump img:last-child {
+  top: 20px;
+}
+
+.reveal .trump-slide {
+  position: relative;
+  left: -10px;
+}
