@@ -48,7 +48,7 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="imgs/inter.gif" data-state="home">
+				<section data-background="imgs/inter.gif" data-state="home" class="slide-home">
 					<h1>The Future of the Web</h1>
 					<h3 class="heading-divider">2016 and Beyond</h3>
 				</section>
@@ -130,10 +130,10 @@
 
 				<section>
 					<h2 class="fragment">Centralization</h2>
-					<h2 class="fragment">Insecurity</h2>
+					<h2 class="fragment">Lack of privacy</h2>
 					<aside class="notes">
 						<ul>
-							<li>The technology behind cryptograpy isn't really the problem, but rather what's being done to undermine that technology</li>
+							<li>Lack of privacy isn't prob per se, but rather what's being done to undermine that technology</li>
 						</ul>
 					</aside>
 				</section>
@@ -365,35 +365,46 @@
 
 				<section>
 					<section data-background="imgs/bg-crypto.jpg">
-						<h1>Privacy</h1>
+						<h1>Lack of privacy</h1>
 					</section>
 
 					<section>
-						<h1>Why do we need more encryption?</h1>
-						<small>If some of you are paying attention to the news, you may be entertaining the idea that sacrifing privacy for security is a good thing.</small>
-						<small>Our lives, and our children's lives, will be increasingly integrated into the internet in ways that we can't even imagine today. Therefore it's imperative that our data stays protected and in our control.</small>
-						<small>Given the events our current world faces, freedom speech must remain free</small>
+						<blockquote>"The world is not sliding, but galloping into a new transnational dystopia. This development has not been properly recognized outside of national security circles. It has been hidden by secrecy, complexity and scale. The internet, our greatest tool of emancipation, has been transformed into the most dangerous facilitator of totalitarianism we have ever seen. The internet is a threat to human civilization."</blockquote> <small>Cypherpunks: Freedom and the Future of the Internet by Julian Assange</small>
 					</section>
 
 					<section>
-						<blockquote>We must defend our own privacy if we expect to have any. We must come together and create systems which allow anonymous transactions to take place. People have been defending their own privacy for centuries with whispers, darkness, envelopes, closed doors, secret handshakes, and couriers. The technologies of the past did not allow for strong privacy, but electronic technologies do.</blockquote> <small>Eric Hughes, A Cypherpunk's Manifesto, 1993</small>
+						<h2>Why do we need more encryption?</h2>
+						<aside class="notes">
+							<ul>
+								<li>In the news: sacrifcing privacy for security</li>
+								<li>Internet will integrate more fully into our lives -- must be secure</li>
+								<li>Given the events our current world faces, freedom speech must remain free</li>
+							</ul>
+						</aside>
 					</section>
 
 					<section>
-						<h2>We live in a world of cryptography.</h2>
-						<p>Banking</p>
-						<p>Shopping</p>
-						<p>Social media</p>
-						<p>And now, money</p>
+						<h3>We live in a precariously open world ...</h3>
+						<p class="fragment">Online banking</p>
+						<p class="fragment">Online shopping</p>
+						<p class="fragment">Social media</p>
+						<p class="fragment">And now, money</p>
+					</section>
+
+					<section>
+						<h2>Adversaries want to hack and control all of it.</h2>
 					</section>
 
 					<section data-background="imgs/snowden.jpg">
 
 					</section>
 
-					<section class="section-snowden-photo">
-						<img src="imgs/snowden-tweet.png" alt="" />
-						<p>Tweet regarding the recent Apple vs FBI case which the tech community has known since the jump that it's really just an attempted power grab.</p>
+					<section class="section-snowden-photo" data-background="imgs/snowden-tweet.png">
+						<aside class="notes">
+							<ul>
+								<li>Tweet regarding the recent Apple vs FBI case which the tech community has known since the jump that it's really just an attempted power grab.</li>
+							</ul>
+						</aside>
 					</section>
 
 					<section>
@@ -417,11 +428,11 @@
 					</section>
 
 					<section>
-						<h1>Demo</h1>
+						<h2>Let's cut through the propaganda together</h2>
 					</section>
 
 					<section>
-						<h1>"Trustless"</h1>
+						<h2>"Trustless"</h2>
 					</section>
 
 				</section>
@@ -429,6 +440,19 @@
 				<section>
 					<section data-background="imgs/bg-future.jpg">
 						<h2>Amazing things are happening. Are you ready?</h2>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-changetip.svg" alt="" />
+							<span>ChangeTip</span>
+						</h2>
+						<a href="https://changetip.com">changetip.com</a>
+						<ul>
+							<li class="fragment">P2P Donatation system</li>
+							<li class="fragment">Creative microtransactions</li>
+							<li class="fragment">Send tips via social media, or inside animated .gifs</li>
+						</ul>
 					</section>
 
 					<section class="slide-altcoins platform">
@@ -456,19 +480,6 @@
 							<li class="fragment">No fees</li>
 							<li class="fragment">No restrictions</li>
 							<li class="fragment">Currently in beta with over 20k users</li>
-						</ul>
-					</section>
-
-					<section class="slide-altcoins platform">
-						<h2>
-							<img src="imgs/logo-changetip.svg" alt="" />
-							<span>ChangeTip</span>
-						</h2>
-						<a href="https://changetip.com">changetip.com</a>
-						<ul>
-							<li class="fragment">P2P Donatation system</li>
-							<li class="fragment">Creative microtransactions</li>
-							<li class="fragment">Send tips via social media, or inside animated .gifs</li>
 						</ul>
 					</section>
 
@@ -533,7 +544,9 @@
 						</h2>
 						<a href="https://blockstack.org">blockstack.org</a>
 						<ul>
-							<li class="fragment">Test</li>
+							<li class="fragment">Decentralized DNS</li>
+							<li class="fragment">Comprehensive and portable architecture</li>
+							<li class="fragment">Allows you to create your own namespaces, or TLDs</li>
 						</ul>
 					</section>
 
@@ -544,7 +557,9 @@
 						</h2>
 						<a href="https://maidsafe.net">maidsafe.net</a>
 						<ul>
-							<li class="fragment">Test</li>
+							<li class="fragment">Goal to completely do away with centralized data servers</li>
+							<li class="fragment">Decentralizes the internet by turning peoples computeres into servers, like bittorrent</li>
+							<li class="fragment">Issues its own crypto currency called safecoin to give incentives for people to join</li>
 						</ul>
 					</section>
 
@@ -555,7 +570,10 @@
 						</h2>
 						<a href="https://letsencrypt.org">letsencrypt.org</a>
 						<ul>
-							<li class="fragment">Test</li>
+							<li class="fragment">Free certificate authority</li>
+							<li class="fragment">Reduces the barrier to entry for obtaining TLS</li>
+							<li class="fragment">Reduces the barrier to entry for obtaining TLS</li>
+							<li class="fragment">Mozilla, Chrome, Facebook, Shopify, etc</li>
 						</ul>
 					</section>
 
@@ -575,15 +593,30 @@
 				</section>
 
 				<section>
-					<h1>TL;DR</h1>
-					<ul>
-						<li>Decentralized access to data</li>
-						<li>Authenticated and encrypted data at rest</li>
-						<li>Offline first</li>
-						<li>Permanent</li>
-						<li>New developments happening on the web won't stay on the web</li>
+					<h1>TLDR</h1>
+					<ul class="fragment list-default list-nobull list-center">
+						<li class="fragment">Decentralized access to data</li>
+						<li class="fragment">Decentralized money</li>
+						<li class="fragment">Encryption by default</li>
+						<li class="fragment">Offline first</li>
+						<li class="fragment">Trustless</li>
+						<li class="fragment">Permanent storage</li>
 					</ul>
 				</section>
+
+				<section>
+					<ul class="list-default list-nobull list-center">
+						<li>Distributed Autonomous Organizations (DAOs)</li>
+						<li class="fragment">Programmable smart contracts</li>
+						<li class="fragment">AI C-level executives?</li>
+						<li class="fragment">... ???</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Thank you!</h2>
+				</section>
+
 
 			</div>
 
