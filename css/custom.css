@@ -187,3 +187,91 @@
   position: relative;
   left: -10px;
 }
+
+.reveal .fa-bitcoin {
+  color: orange;
+  transform: rotateZ(10deg);
+}
+
+.reveal .list-default {
+  padding-top: 0.5em;
+  line-height: 1.6;
+}
+
+.reveal .list-center {
+  text-align: center;
+}
+
+.reveal .list-nobull {
+  list-style: none;
+  margin: 0;
+}
+
+.reveal .logo-bittorrent {
+  box-shadow: 0 0 86px 6px #85c9ff;
+}
+
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	50% { transform: scale(1.1); }
+	100% { transform: scale(1); }
+}
+
+.reveal .pulse {
+	animation-name: pulse_animation;
+	animation-duration: 2s;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+.reveal .slide-altcoins h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal .slide-altcoins h2 img {
+  margin-right: 10px;
+}
+
+.reveal .slide-altcoins a {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.reveal .slide-altcoins ul {
+  width: 50%;
+  margin-left: 3em;
+}
+
+.reveal .slide-altcoins ul li {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.reveal .slide-altcoins small {
+  display: block;
+}
+
+.reveal .slide-altcoins.platform img {
+  width: 100px;
+  height: 100px;
+}
+
+.reveal .fin-adpot {
+  background-size: 100%
+}
+
+.reveal .transperday {
+  background-size: 100%
+}
+
+.reveal .pony {
+  background-size: 95%
+}
+
+.reveal .volatility {
+  background-size: 80%
+}

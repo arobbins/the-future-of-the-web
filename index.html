@@ -58,33 +58,90 @@
 					<p>
 						<small class="attribution"><a href="https://simpleblend.net">Andrew Robbins</a> / <a href="http://twitter.com/andrewmrobbins">@andrewmrobbins</a> / <a href="https://simpleblend.net">simpleblend.net</a></small>
 					</p>
+					<aside class="notes">
+						<ul>
+							<li>Professional Web Developer for ~6 years, working with the web for about 10</li>
+							<li>COCO memeber for 1 <sup>1/2</sup> year</li>
+						</ul>
+					</aside>
 				</section>
 
 				<section>
 					<h2>Slides <i class="fa fa-external-link"></i></h2>
-					<p><a href="http://bit.ly/1Wpe2H5">bit.ly/1Wpe2H5</a></p>
+					<p><a href="https://simpleblend.net/web">simpleblend.net/web</a></p>
+					<aside class="notes">
+						<ul>
+							<li>Describe how you're going to structure the talk</li>
+							<li>Mission today is to make you as excited as I am for the coming changes</li>
+							<li>2 main problems web community is trying to solve right now</li>
+							<li>Practical solutions that really smart people are proposing</li>
+						</ul>
+					</aside>
 				</section>
 
 				<section data-background="imgs/cosmo.gif">
+					<aside class="notes">
+						<ul>
+							<li>This is how I feel when I have my first cup of coffee, but also when I open a web browser nowadays</li>
+							<li>The rate of change is accelerating</li>
+							<li>Need to stay up to date has never been as important</li>
+						</ul>
+					</aside>
+				</section>
 
+				<section>
+					<h2>Open Source</h2>
+					<aside class="notes">
+						<ul>
+							<li>If JavaScript was propriatary, we wouldn't have what we call the web today.</li>
+						</ul>
+					</aside>
 				</section>
 
 				<section id="fragments" class="slide-history">
-						<h2>Opensource</h2>
 						<p class="fragment"><span class="date">February 2008</span> <img src="imgs/logo-github.svg" class="logo"></p>
 						<p class="fragment"><span class="date">November 2009</span> <img src="imgs/logo-node.png" class="logo logo-node"></p>
 						<p class="fragment"><span class="date">November 2011</span> <img src="imgs/logo-npm.svg" class="logo logo-npm"></p>
 					</section>
+					<aside class="notes">
+						<ul>
+							<li>Bitcoin appeared in 2008 as-well -- talk about later</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h3>Because change is accelerating, the latent problems that haven't yet been resolved are becoming more pronounced.</h3>
+					<aside class="notes">
+						<ul>
+							<li>Fundamental assumptions of how the web should be structured are being challenged.</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>What are the problems?</h2>
+					<aside class="notes">
+						<ul>
+							<li>In my research and experience, I've found that there's two main problems with the web as we know it today.</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2 class="fragment">Centralization</h2>
+					<h2 class="fragment">Insecurity</h2>
+					<aside class="notes">
+						<ul>
+							<li>The technology behind cryptograpy isn't really the problem, but rather what's being done to undermine that technology</li>
+						</ul>
+					</aside>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
 					<section data-background="imgs/bg-decen.jpg">
 						<h1>Decentralization</h1>
-					</section>
-
-					<section>
-						<p>We say "The Web", but how much it is a true "web"?</p>
 					</section>
 
 					<section class="section-hayek">
@@ -94,6 +151,23 @@
 							<blockquote cite="http://">"... the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess."</blockquote>
 							<small>Friedrich Hayek, The Use of Knowledge in Society 1945</small>
 						</div>
+					</section>
+
+					<section>
+						<h1>Problems</h1>
+						<ul class="list-default list-nobull list-center">
+							<li class="fragment">Inefficient & Slow</li>
+							<li class="fragment">Security Risk</li>
+							<li class="fragment">Online only</li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Hayek wrote over 70 years ago</li>
+								<li>Information distribution is hard to scale when centralized</li>
+								<li>Credit card theft</li>
+								<li></li>
+							</ul>
+						</aside>
 					</section>
 
 					<section class="section-phases">
@@ -110,16 +184,43 @@
 						</div>
 
 						<div class="phase fragment">
-							<img src="imgs/logo-bittorrent.svg" alt="" />
+							<img src="imgs/logo-bittorrent.svg" alt="" class="logo-bittorrent pulse" />
 						</div>
+
+						<aside class="notes">
+							<ul>
+								<li>Napster Disrupted the CD industry reign from 84 - 00</li>
+								<li>Kazaa (& limewire) differed from Napster in that it was more decentralized, making each user a node to download directly from</li>
+								<li>Bittorrent differs from all three in that it makes each user </li>
+							</ul>
+						</aside>
+
 					</section>
 
-					<section class="section-distributions">
-						Paul Baran, 1962 -- On Distributed Communications Networks
-						<img src="imgs/diagram-distributions.gif" alt="" />
+					<section data-background="imgs/drapprove.gif"></section>
+
+					<section class="section-distributions" data-background="imgs/bg-baran.svg">
+						<aside class="notes">
+							<ul>
+								<li>Paul Baran, Distributed Communications 1964</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section>
+						<h3>If file sharing is distributed, why can't everything else be?</h3>
+						<aside class="notes">
+							<ul>
+								<li>Describe the way we access "our" data today</li>
+								<li>This model will fail, just like Napster and Kazaa failed</li>
+							</ul>
+						</aside>
 					</section>
 
 					<section data-background="imgs/logo-bitcoin.svg">
+						<aside class="notes">
+							Now the presentation really begins :)
+						</aside>
 					</section>
 
 					<section data-background="imgs/horrified.gif">
@@ -128,17 +229,39 @@
 					<section data-background="imgs/woah.gif">
 					</section>
 
+					<section data-background="imgs/chart-num-of-trans.jpg" class="transperday">
+					</section>
+
+					<section data-background="imgs/chart-financial-adoption.jpg" class="fin-adpot">
+					</section>
+
 					<section>
-						<h2>Why is Bitcoin important?</h2>
-						<ul>
-							<li class="fragment">Byzantine Generals problem</li>
-							<li class="fragment">Decentralization of money. Bitcoin is not the money of the internet. It's the internet of money.</li>
-								<li>Deflationary (inflation bad)</li>
-							<li>Distrubted model of trust without a central authority</li>
-							<li class="fragment">Decentralization of trust</li>
-							<li class="fragment">Bittorrent of money</li>
-							<li class="fragment">Bittorrent of money</li>
+						<img src="imgs/chart-venture-cap.jpg" alt="" />
+					</section>
+
+					<section data-background="imgs/volatility.png" class="volatility">
+					</section>
+
+					<section data-background="imgs/pony.png" class="pony">
+					</section>
+
+					<section>
+						<h2>Why is <i class="fa fa-bitcoin"></i>itcoin important?</h2>
+						<ul class="list-nobull list-center">
+							<li class="fragment">Decentralizes the transfer of value (much more than money)</li>
+							<li class="fragment">Decentralizes trust on the internet</li>
 						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Bitcoin is the internet of money.</li>
+								<li>Economics shaken with theories of money production and money origination</li>
+								<li>Solves Byzantine Generals problem via it's consensus algorithm called the Blockchain</li>
+							</ul>
+						</aside>
+					</section>
+
+					<section>
+						<h3>Bitcoin represents a breakthrough in computer science and will change the internet, and our lives, forever.</h3>
 					</section>
 
 					<section data-background="imgs/bg-blockchain.svg">
@@ -152,72 +275,104 @@
 					</section>
 
 					<section>
-						Show blockchain.info
 						<aside class="notes">
 							Show blockchain.info
 						</aside>
 					</section>
 
 					<section>
-						<h2>What are alt coins?</h2>
-						<ul>An abbreviation of "Bitcoin alternative," the majority of altcoins are simply forks of original Bitcoin code-base. Most alt-coins change only minor characteristics such as its transactions speed, distribution method, or hashing algorithm.</ul>
+						<h2>Alt-coins!</h2>
+						<small>Bring on the Crypto-currency revolution</small>
+						<img src="imgs/altcoins.jpg" alt="" />
+						<ul class="list-default list-center list-nobull">
+							<li class="fragment">Represents the nature of Bitcoin (decentralization)</li>
+							<li class="fragment">True currency competition</li>
+							<li class="fragment">Sky's the limit</li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>"Bitcoin alternative"</li>
+								<li>Up to now, most are simply forks of original Bitcoin code-base.</li>
+								<li>Most change only minor characteristics such as its transactions speed, distribution method, or hashing algorithm.</li>
+							</ul>
+						</aside>
 					</section>
 
-					<section>
+					<section class="slide-altcoins">
+						<h2>
+							<img src="imgs/logo-litecoin.svg" alt="" />
+							<span>Litecoin</span>
+						</h2>
+						<a href="https://litecoin.org">https://litecoin.org</a>
 						<ul>
-							<li class="fragment">Not necessarily independent</li>
-							<li class="fragment">Represents the true nature of Bitcoin (decentralization)</li>
+							<li>Faster transaction confirmation times</li>
+							<li>Improved storage efficiency</li>
+							<li>Market cap: $147,429,369</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins">
+						<h2>
+							<img src="imgs/logo-dogecoin.svg" alt="" />
+							<span>Dogecoin</span>
+						</h2>
+						<a href="http://dogecoin.com">http://dogecoin.com</a>
+						<ul>
+							<li>Very close to Litecoin</li>
+							<li>Gained its popularity due to the community it has developed</li>
+							<li>Market cap: $25,299,473</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins">
+						<h2>
+							<img src="imgs/logo-namecoin.svg" alt="" />
+							<span>Namecoin</span>
+						</h2>
+						<a href="https://namecoin.info">https://namecoin.info</a>
+						<ul>
+							<li>"...working to protect free speech online and save the world from an Orwellian surveillance state"</li>
+							<li>Alternative Domain Name System (DNS)</li>
+							<li>Trying to replace ICANN</li>
+							<li>Market cap: $7,836,332</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins">
+						<h2>
+							<img src="imgs/logo-dash.svg" alt="" />
+							<span>Dash</span>
+						</h2>
+						<a href="https://www.dash.org">https://www.dash.org</a>
+						<ul>
+							<li>Market cap: $30,929,272</li>
+							<li>Complete anonymity</li>
+							<li>Often marketed as Digital cash</li>
+							<li>Near instant transaction times</li>
 						</ul>
 					</section>
 
 					<section>
-						<h1>Litecoin</h1>
-						<a href="https://litecoin.org">https://litecoin.org</a>
-						<p>Market cap: $147,429,369</p>
-						<p>Litecoin features faster transaction confirmation times and improved storage efficiency than Bitcoin.</p>
-					</section>
-
-					<section>
-						<h1>Dogecoin</h1>
-						<a href="http://dogecoin.com">http://dogecoin.com</a>
-						<p>Market cap: $25,299,473</p>
-						<p>Very close to Litecoin, Dogecoin has literally gained its popularity due to the community it has developed. Wow so money, such awesome.</p>
-					</section>
-
-					<section>
-						<h1>Namecoin</h1>
-						<a href="https://namecoin.info">https://namecoin.info</a>
-						<p>Market cap: $7,836,332</p>
-						<p>Namecoin is developed by an international team of academics and volunteers working to protect free speech online and save the world from an Orwellian surveillance state. Namecoin's main purpose is to control an alternative Domain Name System (DNS) for the .bit domain. By existing outside of the control of ICANN, .bit domains can escape censorship.</p>
-					</section>
-
-					<section>
-						<h1>Dash</h1>
-						<a href="https://www.dash.org">https://www.dash.org</a>
-						<p>Market cap: $30,929,272</p>
-						<p>Formerly Darkcoin, Dash's major value prop is completely annonymiation -- similar to cash. Often marketed as Digital cash, hence the name "Dash". Payments are received almost instantly by the other party thanks to InstantX technology.</p>
-					</section>
-
-					<section>
-						<h1>Ethereum</h1>
-						<a href="https://www.ethereum.org">https://www.ethereum.org</a>
-						<p>Market cap: $872,765,850</p>
-						<p>A decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
-						<p>These apps run on a custom built blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property. This enables developers to create markets, store registries of debts or promises, move funds in accordance with instructions given long in the past (like a will or a futures contract) and many other things that have not been invented yet, all without a middle man or counterparty risk.</p>
-						<p>The project was crowdfunded during August 2014 by fans all around the world. It is developed by the Ethereum Foundation, a Swiss nonprofit, with contributions from great minds across the globe.</p>
-					</section>
-
-					<section>
-						<blockquote cite="http://">
-							The days of monopolies are past. We now live in a world where centralized authorities are no longer needed.
-						</blockquote>
+						<blockquote>"The days of monopolies are past. We now live in a world where centralized authorities are no longer needed."</blockquote><small> - Andreas Antonopoulos</small>
+						<aside class="notes">
+							<ul>
+								<li>Consequences of decentralization === government freakouts</li>
+							</ul>
+						</aside>
 					</section>
 
 				</section>
 
 				<section>
-					<section data-background="imgs/waves.jpg">
+					<section data-background="imgs/bg-crypto.jpg">
 						<h1>Privacy</h1>
+					</section>
+
+					<section>
+						<h1>Why do we need more encryption?</h1>
+						<small>If some of you are paying attention to the news, you may be entertaining the idea that sacrifing privacy for security is a good thing.</small>
+						<small>Our lives, and our children's lives, will be increasingly integrated into the internet in ways that we can't even imagine today. Therefore it's imperative that our data stays protected and in our control.</small>
+						<small>Given the events our current world faces, freedom speech must remain free</small>
 					</section>
 
 					<section>
@@ -272,6 +427,154 @@
 				</section>
 
 				<section>
+					<section data-background="imgs/bg-future.jpg">
+						<h2>Amazing things are happening. Are you ready?</h2>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-keybase.svg" alt="" />
+							<span>Keybase</span>
+						</h2>
+						<a href="https://keybase.io">keybase.io</a>
+						<ul>
+							<li class="fragment">Started by previous founder of OkCupid</li>
+							<li class="fragment">Attempting to bring asymmetric encryption to the Masses</li>
+							<li class="fragment">Keybase Filesystem (completely encrypted, decentralized, P2P Dropbox)</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-openbazaar.svg" alt="" />
+							<span>OpenBazaar</span>
+						</h2>
+						<a href="https://openbazaar.org">openbazaar.org</a>
+						<ul>
+							<li class="fragment">Basically Silk Road 2.0</li>
+							<li class="fragment">P2P commerce using Bitcoin</li>
+							<li class="fragment">No fees</li>
+							<li class="fragment">No restrictions</li>
+							<li class="fragment">Currently in beta with over 20k users</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-changetip.svg" alt="" />
+							<span>ChangeTip</span>
+						</h2>
+						<a href="https://changetip.com">changetip.com</a>
+						<ul>
+							<li class="fragment">P2P Donatation system</li>
+							<li class="fragment">Creative microtransactions</li>
+							<li class="fragment">Send tips via social media, or inside animated .gifs</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+
+						<div class="fragment" data-fragment-index="1">
+							<h2>
+								<img src="imgs/logo-ethereum.svg" alt="" />
+								<span>Ethereum</span>
+							</h2>
+							<a href="https://ethereum.org">ethereum.org</a>
+							<ul>
+								<li class="fragment" data-fragment-index="2">Bitcoin inspired Blockchain infastructure</li>
+								<li class="fragment" data-fragment-index="3">Smart contracts</li>
+								<li class="fragment" data-fragment-index="4">Programmable transactions</li>
+								<li class="fragment" data-fragment-index="5">Autonomous Organizations</li>
+							</ul>
+						</div>
+
+						<iframe class="fragment"  data-fragment-index="6" style="position:absolute;top:0;left:0;" width="100%" height="100%" src="https://www.youtube.com/embed/j23HnORQXvs" frameborder="0" allowfullscreen></iframe>
+
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-ipfs.svg" alt="" />
+							<span>IPFS</span>
+						</h2>
+						<small style="margin-bottom:10px;">(InterPlanetary File System)</small>
+						<a href="https://ipfs.io">ipfs.io</a>
+						<ul>
+							<li class="fragment">The Permanent Web</li>
+							<li class="fragment">Enables the creation of completely distributed applications</li>
+							<li class="fragment">Seeks to connect all computing devices with the same system of files</li>
+							<li class="fragment">Think of BitTorrent, but for the entire web</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+
+						<div class="fragment" data-fragment-index="1">
+							<h2>
+								<img src="imgs/logo-slockit.svg" alt="" />
+								<span>Slock.it</span>
+							</h2>
+							<a href="https://slock.it">slock.it</a>
+							<ul>
+								<li class="fragment" data-fragment-index="2">Brings blockchain technology to the IoT</li>
+								<li class="fragment" data-fragment-index="3">Rent access to any kind of smart object</li>
+								<li class="fragment" data-fragment-index="4">Bye Bye Airbnb</li>
+							</ul>
+						</div>
+
+						<iframe class="fragment" data-fragment-index="5" style="position:absolute;top:0;left:0;" width="100%" height="100%" src="https://www.youtube.com/embed/opPyMgK5w9g?start=34" frameborder="0" allowfullscreen></iframe>
+
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-blockstack.svg" alt="" />
+							<span>Blockstack</span>
+						</h2>
+						<a href="https://blockstack.org">blockstack.org</a>
+						<ul>
+							<li class="fragment">Test</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-maidsafe.svg" alt="" />
+							<span>MAIDSAFE</span>
+						</h2>
+						<a href="https://maidsafe.net">maidsafe.net</a>
+						<ul>
+							<li class="fragment">Test</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-letsencryptit.svg" alt="" />
+							<span>Let's encrypt it</span>
+						</h2>
+						<a href="https://letsencrypt.org">letsencrypt.org</a>
+						<ul>
+							<li class="fragment">Test</li>
+						</ul>
+					</section>
+
+					<section class="slide-altcoins platform">
+						<h2>
+							<img src="imgs/logo-shapeshift.svg" alt="" />
+							<span>Shapeshift</span>
+						</h2>
+						<a href="https://shapeshift.io">shapeshift.io</a>
+						<ul>
+							<li class="fragment">Easily convert different crypto-currencies</li>
+							<li class="fragment">No account needed</li>
+							<li class="fragment">No fee</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<section>
 					<h1>TL;DR</h1>
 					<ul>
 						<li>Decentralized access to data</li>
@@ -280,308 +583,6 @@
 						<li>Permanent</li>
 						<li>New developments happening on the web won't stay on the web</li>
 					</ul>
-				</section>
-
-
-				<section>
-					<h1>Distributed</h1>
-				</section>
-
-				<section>
-					<img src="imgs/chart-num-of-trans.jpg" alt="" />
-				</section>
-
-				<section>
-					<img src="imgs/chart-financial-adoption.jpg" alt="" />
-				</section>
-
-				<section>
-					<img src="imgs/chart-venture-cap.jpg" alt="" />
-				</section>
-
-				<section>
-					<h2>Visa</h2>
-					<p>180,000 per minute</p>
-					<p>10,800,000 per hour</p>
-					<p>259,200,000 per day</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
-				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
 				</section>
 
 			</div>

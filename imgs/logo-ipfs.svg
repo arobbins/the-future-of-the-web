@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#076BB3;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0776C1;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#0777C1;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#3BA1EA;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#0969B1;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#3D5877;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#3DA5EF;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#0B67AF;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#0D66AD;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#0D7CC7;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#0E64AB;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#405873;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#414042;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#425E7D;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#445C78;}
+	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#445F7F;}
+	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#445F80;}
+	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:#454A75;}
+	.st18{fill-rule:evenodd;clip-rule:evenodd;fill:#456284;}
+	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#466284;}
+	.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#466486;}
+	.st21{fill-rule:evenodd;clip-rule:evenodd;fill:#484948;}
+	.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#486588;}
+	.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#48989B;}
+	.st24{fill-rule:evenodd;clip-rule:evenodd;fill:#1063AA;}
+	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#AE4CBF;}
+	.st26{fill-rule:evenodd;clip-rule:evenodd;fill:#1162A9;}
+	.st27{fill-rule:evenodd;clip-rule:evenodd;fill:#AF4CBF;}
+	.st28{fill-rule:evenodd;clip-rule:evenodd;fill:#AF4CC0;}
+	.st29{fill-rule:evenodd;clip-rule:evenodd;fill:#1280CA;}
+	.st30{fill-rule:evenodd;clip-rule:evenodd;fill:#1360A6;}
+	.st31{fill-rule:evenodd;clip-rule:evenodd;fill:#1361A7;}
+	.st32{fill-rule:evenodd;clip-rule:evenodd;fill:#1370B5;}
+	.st33{fill-rule:evenodd;clip-rule:evenodd;fill:#1371B5;}
+	.st34{fill-rule:evenodd;clip-rule:evenodd;fill:#E3B371;}
+	.st35{fill-rule:evenodd;clip-rule:evenodd;fill:#E3B372;}
+	.st36{fill-rule:evenodd;clip-rule:evenodd;fill:#1583CD;}
+	.st37{fill-rule:evenodd;clip-rule:evenodd;fill:#165EA3;}
+	.st38{fill-rule:evenodd;clip-rule:evenodd;fill:#4A698D;}
+	.st39{fill-rule:evenodd;clip-rule:evenodd;fill:#16A0FE;}
+	.st40{fill-rule:evenodd;clip-rule:evenodd;fill:#4A9DA0;}
+	.st41{fill-rule:evenodd;clip-rule:evenodd;fill:#4B698E;}
+	.st42{fill-rule:evenodd;clip-rule:evenodd;fill:#4C6888;}
+	.st43{fill-rule:evenodd;clip-rule:evenodd;fill:#4C6B8F;}
+	.st44{fill-rule:evenodd;clip-rule:evenodd;fill:#195CA0;}
+	.st45{fill-rule:evenodd;clip-rule:evenodd;fill:#4D647F;}
+	.st46{fill-rule:evenodd;clip-rule:evenodd;fill:#4D6C91;}
+	.st47{fill-rule:evenodd;clip-rule:evenodd;fill:#4E647E;}
+	.st48{fill-rule:evenodd;clip-rule:evenodd;fill:#4E6C92;}
+	.st49{fill-rule:evenodd;clip-rule:evenodd;fill:#4E6D93;}
+	.st50{fill-rule:evenodd;clip-rule:evenodd;fill:#4F6E94;}
+	.st51{fill-rule:evenodd;clip-rule:evenodd;fill:#4F6F94;}
+	.st52{fill-rule:evenodd;clip-rule:evenodd;fill:#4F6F95;}
+	.st53{fill-rule:evenodd;clip-rule:evenodd;fill:#B04DC1;}
+	.st54{fill-rule:evenodd;clip-rule:evenodd;fill:#821CA7;}
+	.st55{fill-rule:evenodd;clip-rule:evenodd;fill:#B2B2B2;}
+	.st56{fill-rule:evenodd;clip-rule:evenodd;fill:#1D88D2;}
+	.st57{fill-rule:evenodd;clip-rule:evenodd;fill:#8991B1;}
+	.st58{fill-rule:evenodd;clip-rule:evenodd;fill:#1E88D2;}
+	.st59{fill-rule:evenodd;clip-rule:evenodd;fill:#506F96;}
+	.st60{fill-rule:evenodd;clip-rule:evenodd;fill:#507097;}
+	.st61{fill-rule:evenodd;clip-rule:evenodd;fill:#517198;}
+	.st62{fill-rule:evenodd;clip-rule:evenodd;fill:#52729A;}
+	.st63{fill-rule:evenodd;clip-rule:evenodd;fill:#52739A;}
+	.st64{fill-rule:evenodd;clip-rule:evenodd;fill:#53749C;}
+	.st65{fill-rule:evenodd;clip-rule:evenodd;fill:#54759D;}
+	.st66{fill-rule:evenodd;clip-rule:evenodd;fill:#55769E;}
+	.st67{fill-rule:evenodd;clip-rule:evenodd;fill:#55779E;}
+	.st68{fill-rule:evenodd;clip-rule:evenodd;fill:#578FCB;}
+	.st69{fill-rule:evenodd;clip-rule:evenodd;fill:#BA945F;}
+	.st70{fill-rule:evenodd;clip-rule:evenodd;fill:#594A42;}
+	.st71{fill-rule:evenodd;clip-rule:evenodd;fill:#BCBEC0;}
+	.st72{fill-rule:evenodd;clip-rule:evenodd;}
+	.st73{fill:#FFA400;}
+	.st74{fill-rule:evenodd;clip-rule:evenodd;fill:#F1F1F1;}
+	.st75{fill-rule:evenodd;clip-rule:evenodd;fill:#F3F3F3;}
+	.st76{fill-rule:evenodd;clip-rule:evenodd;fill:#292A29;}
+	.st77{fill-rule:evenodd;clip-rule:evenodd;fill:#295789;}
+	.st78{fill-rule:evenodd;clip-rule:evenodd;fill:#F7F7F7;}
+	.st79{fill-rule:evenodd;clip-rule:evenodd;fill:#297EE1;}
+	.st80{fill-rule:evenodd;clip-rule:evenodd;fill:#98BCE4;}
+	.st81{fill:#003A70;}
+	.st82{fill-rule:evenodd;clip-rule:evenodd;fill:#FDFCFC;}
+	.st83{fill-rule:evenodd;clip-rule:evenodd;fill:#FDFDFD;}
+	.st84{fill-rule:evenodd;clip-rule:evenodd;fill:#FDFEFE;}
+	.st85{fill-rule:evenodd;clip-rule:evenodd;fill:#FE7100;}
+	.st86{fill-rule:evenodd;clip-rule:evenodd;fill:#FEFEFE;}
+	.st87{fill-rule:evenodd;clip-rule:evenodd;fill:#62688E;}
+	.st88{fill-rule:evenodd;clip-rule:evenodd;fill:#63D2D6;}
+	.st89{fill-rule:evenodd;clip-rule:evenodd;fill:#9C1CB1;}
+	.st90{fill-rule:evenodd;clip-rule:evenodd;fill:#9F7757;}
+	.st91{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;}
+	.st92{fill-rule:evenodd;clip-rule:evenodd;fill:#344D6A;}
+	.st93{fill-rule:evenodd;clip-rule:evenodd;fill:#00458D;}
+	.st94{fill-rule:evenodd;clip-rule:evenodd;fill:#005196;}
+	.st95{fill-rule:evenodd;clip-rule:evenodd;fill:#0171BC;}
+	.st96{fill-rule:evenodd;clip-rule:evenodd;fill:#025B92;}
+	.st97{fill-rule:evenodd;clip-rule:evenodd;fill:#025D94;}
+	.st98{fill-rule:evenodd;clip-rule:evenodd;fill:#0270BB;}
+	.st99{fill-rule:evenodd;clip-rule:evenodd;fill:#036EB8;}
+	.st100{fill-rule:evenodd;clip-rule:evenodd;fill:#055890;}
+	.st101{fill-rule:evenodd;clip-rule:evenodd;fill:#056CB5;}
+]]>
+</style>
+<path class="st40" d="M180.6,148c-0.2,1.6-1.8,1.9-2.8,2.5c-25,14.4-50,28.9-75,43.3c-1.6,0.9-2.8,1.7-4.9,0.5
+	c-25.7-15-51.4-29.8-77.2-44.6c-0.3-0.2-0.5-0.5-0.8-0.7c-0.5-0.9-0.3-1.9-0.3-2.9c0-29.2,0-58.5,0-87.7c0-1-0.2-1.9,0.3-2.9
+	c13.7-7.9,27.3-15.9,41-23.8C72.5,24.9,84.3,18.1,96,11.3c1.1-0.7,2.4-1.1,3.2-2.2c0.5,0,1,0,1.5,0c10.3,6,20.5,12.1,30.8,18.1
+	c13.8,8,27.6,15.8,41.2,24c2.5,1.5,5.8,2,7.3,4.9c0.5,1.3,0.3,2.6,0.3,3.9c0,28,0,56,0,84C180.3,145.4,179.9,146.7,180.6,148z"/>
+<path class="st23" d="M19.9,55.5c0,31.1,0,62.3,0,93.4c-1.1-1-0.6-2.3-0.6-3.4c0-28.9,0-57.8,0-86.7C19.2,57.7,18.7,56.4,19.9,55.5z
+	"/>
+<path class="st23" d="M180.6,148c-0.9-0.7-0.7-1.7-0.7-2.7c0-29.7,0.1-59.5,0.1-89.2c1.1,0.8,0.8,2,0.8,3c0,29.2,0,58.3,0,87.5
+	C180.8,147,180.6,147.5,180.6,148z"/>
+<path class="st88" d="M92.5,20.8c2.5,1.2,5.2,1.7,8,1.5c0.8-0.1,1.9,0.2,2.5-0.3c4-3.2,7.2-0.5,10.4,1.3
+	c16.9,9.7,33.7,19.5,50.5,29.2c1.5,0.8,3.2,1.6,3.3,3.5c0.1,1.9-1.9,2.4-3.2,3.1c-17.4,10.1-34.9,20.2-52.4,30.3
+	c-2.3,1.3-4.3,2-7,0.6c-3.5-1.7-7.3-1.3-10.9,0.4c-1.5,0.7-2.6,0.7-4-0.1c-18-10.4-36-20.7-54-31.1c-3.1-1.8-3-5,0.2-6.8
+	C52.9,42.6,69.8,32.8,86.8,23C88.5,22,90.2,20.7,92.5,20.8z"/>
+<path class="st88" d="M94.8,149c0,10.2,0,20.3,0,30.5c0,4.6-1.4,5.5-5.4,3.2c-18-10.3-36-20.7-54.1-31.1c-1.3-0.8-2.4-1.6-2.3-3.3
+	c0.2-4.9-2.4-8.3-6.1-10.9c-1.5-1.1-2-2.2-2-3.9c0-20.6,0-41.2,0-61.8c0-4.1,2.2-5.4,5.9-3.3c17.6,10.1,35.2,20.3,52.8,30.4
+	c1.5,0.9,2.5,1.9,2.6,3.9c0.3,4.7,2.4,8.6,6.5,11.1c1.9,1.1,2.1,2.7,2.1,4.6C94.8,128.7,94.8,138.8,94.8,149z"/>
+<path class="st88" d="M174.8,102.2c0,10.2-0.1,20.3,0.1,30.5c0,2.1-0.5,3.6-2.3,4.8c-3.8,2.5-5.7,6.1-5.7,10.7
+	c0,1.9-1.1,2.8-2.6,3.6c-18.1,10.4-36.2,20.8-54.4,31.2c-3.2,1.8-4.9,0.9-4.9-2.9c0-20.7,0-41.4,0-62.1c0-1.9,0.6-3.2,2.2-4.2
+	c4-2.5,6-6.3,6.4-10.8c0.2-2,0.9-3.1,2.4-4c18-10.4,36-20.7,54-31.1c2.9-1.7,4.7-0.5,4.7,3.1C174.8,81.4,174.8,91.8,174.8,102.2z"/>
+</svg>
